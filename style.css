@@ -16,6 +16,7 @@ h2 {
     font-size: 1.2rem;
 }
 
+
 .logo > img {
     display: block;
     margin-left: auto;
@@ -68,6 +69,16 @@ article {
 
 }
 
+.promo {
+    background-image: url("assets/succulent.png");
+    text-shadow: 1px 1px #ece2e2;
+}
+
+.promo:hover{
+    transform: scale(105%);
+    
+}
+
 a {
     text-decoration: none;
     color: white;
@@ -75,7 +86,13 @@ a {
 }
 
 a:hover{
-    color: antiquewhite;
+    color: rgb(129, 255, 129);
+
+
+}
+
+a:focus{
+    transform: scale(100);
 }
 
 article p {
@@ -98,7 +115,7 @@ footer div {
     color: white;
 }
 
-footer .shrub {
+footer .sm-logo {
     padding-left: 10px;
     flex: 1;
     text-align: left;
@@ -115,3 +132,4 @@ footer p {
     text-align: center;
     border-radius: 5px;
 }
+
